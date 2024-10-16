@@ -11,7 +11,7 @@ def maxDivisor(n):
     while i < n:
         if n % i == 0:
             max_divisor = i
-        i = i + 1
+        i += 1
     return print(max_divisor)
 
 sayHi()
